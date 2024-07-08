@@ -27,23 +27,7 @@ export const Nav30DataSource = {
           ],
         },
       },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>公司简介</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
+      
       {
         name: 'item2',
         className: 'header3-item',
@@ -53,7 +37,7 @@ export const Nav30DataSource = {
             {
               children: (
                 <span>
-                  <p>回收项目</p>
+                  <p>解决方案</p>
                 </span>
               ),
               name: 'text',
@@ -70,7 +54,24 @@ export const Nav30DataSource = {
             {
               children: (
                 <span>
-                  <p>成功案例</p>
+                  <p>产品介绍</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item1',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <p>公司简介</p>
                 </span>
               ),
               name: 'text',
@@ -215,7 +216,7 @@ export const Content00DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>回收项目</p>
+            <p>解决方案</p>
           </span>
         ),
       },
@@ -245,7 +246,7 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>电梯回收</p>
+                      <p>结构健康监测</p>
                     </span>
                   </span>
                 </span>
@@ -255,7 +256,7 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Elevator recovery</p>
+                  <p>Structural Health Monitoring</p>
                 </span>
               ),
             },
@@ -281,7 +282,7 @@ export const Content00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>铁铝铜回收</p>
+                  <p>智能施工系统</p>
                 </span>
               ),
             },
@@ -291,7 +292,7 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Iron copper recovery</p>
+                      <p>Intelligent Construction System</p>
                     </span>
                   </span>
                 </span>
@@ -319,7 +320,7 @@ export const Content00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>不锈钢回收</p>
+                  <p>水利监测系统</p>
                 </span>
               ),
             },
@@ -327,85 +328,15 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Stainless steel recovery</p>
+                  <p>Water Monitoring System</p>
                 </span>
               ),
             },
           ],
         },
       },
-      {
-        name: 'block3',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <span>
-                    <p>工程拆除</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              children: (
-                <span>
-                  <p>Engineering dismantling</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block4',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <span>
-                    <p>中央空调回收</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              children: (
-                <span>
-                  <p>Air conditioning recovery</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
+      
+      
     ],
   },
 };
@@ -420,7 +351,7 @@ export const Content50DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>成功案例</p>
+            <p>产品介绍</p>
           </span>
         ),
         className: 'title-h1',
@@ -440,7 +371,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
           content: { children: 'Ant Design' },
         },
@@ -468,69 +399,13 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
           content: { children: 'Ant Design' },
         },
       },
       {
         name: 'block3',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
-        },
-      },
-      {
-        name: 'block6',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
-        },
-      },
-      {
-        name: 'block7',
         className: 'block',
         md: 6,
         xs: 24,
@@ -569,7 +444,7 @@ export const Content30DataSource = {
           <span>
             <span>
               <span>
-                <h2>苏州子浩物资回收有限公司</h2>
+                <h2>北京两点三维科技有限公司</h2>
               </span>
             </span>
           </span>
@@ -598,7 +473,7 @@ export const Content30DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>回收项目</p>
+                    <p>解决方案</p>
                   </span>
                 </span>
               </span>
@@ -609,7 +484,7 @@ export const Content30DataSource = {
             children: (
               <span>
                 <p>
-                  电梯回收，中央空调回收，废旧物资回收，机械设备回收，厨房、宾馆设备等。
+                  结构健康监测，智能施工系统，水利监测系统等。
                 </p>
               </span>
             ),
@@ -703,8 +578,7 @@ export const Content30DataSource = {
             children: (
               <span>
                 <p>
-                  讲诚信、以信誉求发展。
-                  议、指导。前进中的望月将会在不断变化的各种客观条件下，把握市场动向，熟悉市场环境，完善的饰后服务，让客户真正感受到望月，热情、真诚、诚信的全方位服务。
+                  讲诚信，重品质，谋发展。在不断变化的市场条件下，把握动向，熟悉环境，完善服务，让客户真正感受到热情、诚信、专业的全方位服务。
                 </p>
               </span>
             ),
@@ -867,7 +741,7 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>回收项目</p>
+              <p>解决方案</p>
             </span>
           ),
         },
@@ -880,7 +754,7 @@ export const Footer10DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>电梯回收</p>
+                      <p>结构健康监测</p>
                     </span>
                   </span>
                 </span>
@@ -891,7 +765,7 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>铁铝铜回收</p>
+                  <p>智能施工系统</p>
                 </span>
               ),
             },
@@ -900,25 +774,7 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>不锈钢回收</p>
-                </span>
-              ),
-            },
-            {
-              name: 'link3',
-              href: '#',
-              children: (
-                <span>
-                  <p>工程拆除</p>
-                </span>
-              ),
-            },
-            {
-              name: 'link4',
-              href: '#',
-              children: (
-                <span>
-                  <p>中央空调回收</p>
+                  <p>水利监测系统</p>
                 </span>
               ),
             },
@@ -972,8 +828,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
+        Copyright © 2024 TwoDotsThreeDims All Rights Reserved
       </span>
     ),
   },
